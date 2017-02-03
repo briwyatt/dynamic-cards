@@ -32,11 +32,6 @@ deleteButton.innerHTML = "delete me"; // add text to delete button
 
 
 
-// 	var para = document.createElement("P");                       // Create a <p> element
-// var t = document.createTextNode("This is a paragraph.");      // Create a text node
-// para.appendChild(t);   
-
-
 
 
 function createCard() {
