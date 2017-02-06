@@ -4,7 +4,6 @@
 
 #card-wrap {
     border: 1px solid black;
-    background-color: pink;
     background-color: #ccc;
     height: 510px;
     padding: 1px;
@@ -20,7 +19,7 @@
 }
 
 #card-wrap button {
-    background-color: #4CAF50;
+    background-color: #4CAwF50;
     /* Green */
     color: white;
     padding: 15px 32px;

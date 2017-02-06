@@ -29,12 +29,10 @@ function createCard(e) {
     deleteButton.className = "deleteButtonClass";
 
     console.log("deleteButton", deleteButton)
-    deleteButton.addEventListener("click", deleteCard);
+    newCardBody.addEventListener("click", deleteCard);
 };
 
 function deleteCard(e) {
-    var node = document.getElementById("card-wrap");
-    if (node.parentNode) {
-        node.parentNode.removeChild(node);
-    };
+    console.log("e.target, e.currentTarget",e.target, e.currentTarget); // e.currentTarget is where EventListener is attached
+    e.currentTarget.remove();
 }
